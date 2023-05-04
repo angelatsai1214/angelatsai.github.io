@@ -1,0 +1,90 @@
+* {
+    /* we set no margin and no padding for ease of formatting */
+    margin: 0;
+    padding: 0;
+    /* primary and secondary fonts */
+    font-family: 'Nunito', sans-serif;
+  }
+  
+  .navbar {
+    /* sticky makes the navbar not move when you scroll */
+    position: sticky;
+    /* z-index represents the layer this element is on */
+    /* the higher the z-index, the higher the layer */
+    /* higher layers show over lower layers */
+    /* we don't want anything blocking the navbar so we set this high */
+    z-index: 999;
+    /* rest of the formatting up to you! */
+    background-color: rgb(194, 138, 247);
+    height: 10vh;
+    padding-top: 5vh;
+  }
+  
+  .navbar__container {
+    /* rest of the formatting up to you! */
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  #navbar__logo {
+    /* rest of the formatting up to you! */
+    font-size: 26px;
+    text-decoration: none;
+    
+  }
+  
+  .fa-diamond {
+    margin-right: 0.5rem;
+  }
+  
+  .navbar__menu {
+    /* rest of the formatting up to you! */
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    
+  }
+
+  .navbar__links {
+    /* rest of the formatting up to you! */
+    text-decoration: none;
+    color: white;
+    
+  }
+  
+  .navbar__item{
+    margin-right: 5vw;
+  }
+  
+  .navbar__btn {
+    /* rest of the formatting up to you! */
+    background-color: blueviolet;
+    border-radius: 5px;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+   
+  }
+  
+  .button {
+    /* rest of the formatting up to you! */
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+  }
+
+  .navbar__links:hover{
+    color: blueviolet;
+  }
+  
+  .navbar__btn:hover {
+    /* these are extra if you want to implement hover effects */
+    cursor: pointer;
+    color: white;
+    
+  }
+  
+  .button:hover {
+    /* these are extra if you want to implement hover effects */
+    
+  }
